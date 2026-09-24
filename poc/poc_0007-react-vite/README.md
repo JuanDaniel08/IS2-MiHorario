@@ -91,7 +91,7 @@ Las pruebas fueron ejecutadas en un entorno de pruebas con CPU Throttling (4x sl
 ### Paso a paso:
 1. Clonar el repositorio y acceder a la carpeta de la PoC:
    ```bash
-   cd "c:\Users\jrodr\OneDrive\Documentos\semestre_2-2026\Software 2\poc\poc_0007-react-vite"
+   cd "\poc\poc_0007-react-vite"
    ```
 
 2. Instalar dependencias:

@@ -1,0 +1,20 @@
+{
+  "name": "poc-0004-async-bullmq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PoC-0004: Validación empírica de Comunicación Asíncrona con BullMQ y Redis para MiHorario Comfama (Software 2)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "benchmark": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
