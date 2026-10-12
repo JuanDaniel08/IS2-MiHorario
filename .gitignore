@@ -1,34 +1,71 @@
-# Dependencies
-node_modules/
-**/node_modules/
-.pnp
-.pnp.js
+# compiled output
+dist
+node_modules
+build
 
-# Production build outputs
-dist/
-**/dist/
-build/
-**/build/
-
-# Environment and secrets
-.env
-.env.local
-.env.*.local
-*.env
+# TypeScript build cache
+*.tsbuildinfo
 
 # Logs
+logs
+*.log
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-*.log
+lerna-debug.log*
 
-# Editor and OS files
-.vscode/
-.idea/
+# OS
 .DS_Store
-Thumbs.db
 
-# Temporary & system generated
-.temp/
-.cache/
+# Tests
+coverage
+.nyc_output
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+!.env.example
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Archivos específicos de documentación y diseño
+Escenarios de Calidad.xlsx
+GraficaDriversArquitectonicos.png
+audios/
+
+# Ignorar todas las extensiones que coincidan con "Notas de Clase" (.docx, .md, etc.)
+Notas de Clase.*
+
+# Ruta específica dentro de subcarpetas
+doc/adr/adr-example.md
